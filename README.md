@@ -1,3 +1,4 @@
+
 HTML ENTITY CODEC
 ==========================
 
@@ -7,8 +8,10 @@ A JavaScript implementation of the OWASP ESAPI (Enterprise Security API) for HTM
 
 How to use
 ----------
+To encode a string, pass it to the `encodeForHTML()` method of the `HTML_ENTITY_CODEC` object.
 
-`@TODO`
+For example:
+`HTML_ENTITY_CODEC.encodeForHTML('<i>test</i>'); // '&lt;i&gt;test&lt;&#x2f;i&gt;'`
 
 Author
 ------
